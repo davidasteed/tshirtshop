@@ -1,1 +1,1 @@
-TSHIRT Shop project
+TSHIRT shop 
