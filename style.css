@@ -5,30 +5,23 @@ body {
 }
 
 .item_for_sale {
-
   float: left;
-  /*position: relative;*/
-
+  position: relative;
 }
 
 .image_tshirt {
-  border: 1px solid #84BBEA;
+  border: .2em solid #84BBEA;
+  border-bottom: none;
+  display: block;
 }
 
-.cornerbox_blue {
-  border: 1px solid #84BBEA;
-  /*position: absolute;*/
-  /*top: 0;
-  right: 0;*/
-  /*height: 20%;
-  width: 20%;*/
-  /*padding: .5em 0 .5em 0;*/
-
-  float: right;
+.cornerbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .3em;
   box-sizing: border-box;
   text-align:center;
-  display: inline;
-
 }
 
 .subsection_parent {
@@ -37,13 +30,32 @@ body {
   list-style-type: none;
 }
 
-.subsection_child {
+.subsection_inside_child {
   float: left;
-  border: 1px solid #84BBEA;
   width: 20%;
   padding: 1em 0 1em 0;
   box-sizing: border-box;
   text-align: center;
+}
+
+.subsection_outside_child {
+  float: left;
+  width: 20%;
+  /*padding: 1em 0 1em 0;*/
+  box-sizing: border-box;
+  border: 2em;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.subsection_outside_child_left {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  border: 2em;
+  padding-right: 1em;
+  padding-top: 1em;
+  text-align: right;
 }
 
 .remove_underline {
@@ -60,4 +72,21 @@ body {
 
 .color_blue {
   color: #84BBEA;
+}
+
+.border_corner_blue {
+  border: .2em solid #84BBEA;
+}
+
+.border_list-inside_blue {
+  border-top: .2em solid #84BBEA;
+  border-bottom: .2em solid #84BBEA;
+  border-right: .2em solid #84BBEA;
+}
+
+.border_list-inside-leftmost_blue {
+  border-top: .2em solid #84BBEA;
+  border-bottom: .2em solid #84BBEA;
+  border-left: .2em solid #84BBEA;
+  border-right: .2em solid #84BBEA;
 }
