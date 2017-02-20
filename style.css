@@ -4,15 +4,12 @@ body {
   min-height: 100vw;
 }
 
+/* shared classes */
 .item_for_sale {
   float: left;
+  margin-right: 2%;
+  margin-bottom: 6%;
   position: relative;
-}
-
-.image_tshirt {
-  border: .2em solid #84BBEA;
-  border-bottom: none;
-  display: block;
 }
 
 .cornerbox {
@@ -22,6 +19,20 @@ body {
   padding: .3em;
   box-sizing: border-box;
   text-align:center;
+}
+
+.image_tshirt {
+  border: .2em solid #84BBEA;
+  border-bottom: none;
+  display: block;
+}
+
+.popup_origin {
+  position: relative;
+}
+
+.no_list-items {
+  list-style-type: none;
 }
 
 .subsection_parent {
@@ -70,6 +81,25 @@ body {
   width: 50%;
 }
 
+.font-size-2 {
+  font-size: 1.2em;
+}
+
+.font-size-3 {
+  font-size: 1.4em;
+}
+
+.font-size-4 {
+  font-size: 1.6em;
+}
+
+.option_pane_float_items {
+  float: left;
+  width: 50%;
+  padding: .5em 0 .5em 0;
+}
+
+/* blue t-shirt */
 .color_blue {
   color: #84BBEA;
 }
@@ -91,56 +121,28 @@ body {
   border-right: .2em solid #84BBEA;
 }
 
-.popup_origin {
-  position: relative;
-}
-/*
-.bc-test {
-  background-color: red;
-  position: absolute;
-
-}*/
-
-.no_list-items {
-  list-style-type: none;
-
-
-  /*padding-left: 0;*/
-  /*padding-left: 2em;*/
-}
-
 .option_pane_blue {
   position: absolute;
+  /*border: .2em solid #84BBEA;*/
+  /*border: .2em solid #FFFFFF;*/
   border: .2em solid #84BBEA;
-  /*width: 1em;*/
-  /*height: 1em;*/
+  width: 100%;
+  bottom: 3.5em;
+  padding: 0;
+  left: -0.2em;
+  opacity: 0;
+  /*color: #FFFFFF;*/
+}
 
+.popup_origin:hover .option_pane_blue {
+  opacity: 1;
+  border: .2em solid #84BBEA;
+  background-color: #FFFFFF;
+  /*color: #84BBEA;*/
+}
 
-  /*height: 13em;
-  width: 7em;
-  top: -75px;
-  width: 4em;
-  left: -17px;*/
-
-
-  /*bottom: 5em;*/
-
-
-
-
-  /*top: 0;*/
-
-
-  /*width: 1em;*/
-  /*text-align: center*/
-  /*content: "";
-  width: 10px;
-  height: 10px;
-  background-color: red;*/
-  /*left: 0;*/
-  /*bottom: 4em;
-  left: 0;*/
-  /*text-align: center;*/
+.popup_origin:hover {
+  color: #84BBEA;
 }
 
 .border_corner_blue:hover {
@@ -168,4 +170,24 @@ body {
 
 .border_list-inside_blue:hover .remove_underline{
   color: #FFFFFF;
+}
+
+
+/* pink t-shirt */
+
+.color_pink {
+  color: #D082AC;
+}
+
+/* yellow t-shirt */
+.color_yellow {
+  color: #D8AF74;
+}
+
+.color_green {
+  color: #8FB98E;
+}
+
+.image_flip:active {
+  color: green;
 }
