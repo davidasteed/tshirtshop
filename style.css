@@ -1,9 +1,5 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-body {
-  min-height: 100vw;
-}
-
 /* shared classes */
 .item_for_sale {
   float: left;
@@ -41,31 +37,25 @@ body {
   list-style-type: none;
 }
 
-.subsection_inside_child {
+.subsection_basic_styling {
   float: left;
   width: 20%;
-  padding: 1em 0 1em 0;
   box-sizing: border-box;
-  text-align: center;
+
 }
 
-.subsection_outside_child {
-  float: left;
-  width: 20%;
-  /*padding: 1em 0 1em 0;*/
-  box-sizing: border-box;
+.inside_child {
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+
+.outside_child {
   border: 2em;
   padding-left: 1em;
   padding-top: 1em;
 }
 
-.subsection_outside_child_left {
-  float: left;
-  width: 20%;
-  box-sizing: border-box;
-  border: 2em;
-  padding-right: 1em;
-  padding-top: 1em;
+.outside_child_left {
   text-align: right;
 }
 
@@ -81,6 +71,9 @@ body {
   width: 50%;
 }
 
+.price_emphasis {
+    font-weight: bolder;
+}
 .font-size-2 {
   font-size: 1.2em;
 }
