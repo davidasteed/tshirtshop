@@ -12,9 +12,11 @@
   position: absolute;
   top: 0;
   right: 0;
-  padding: .3em;
   box-sizing: border-box;
   text-align:center;
+  display: block;
+
+  padding: 2.5%;
 }
 
 .image_tshirt {
@@ -97,37 +99,34 @@
   color: #84BBEA;
 }
 
-.border_corner_blue {
+.refresh_button {
   border: .2em solid #84BBEA;
 }
 
-.border_list-inside_blue {
+.option_pane_emphasis {
   border-top: .2em solid #84BBEA;
   border-bottom: .2em solid #84BBEA;
   border-right: .2em solid #84BBEA;
 }
 
-.border_list-inside-leftmost_blue {
+.option_pane_emphasis_full {
   border-top: .2em solid #84BBEA;
   border-bottom: .2em solid #84BBEA;
   border-left: .2em solid #84BBEA;
   border-right: .2em solid #84BBEA;
 }
 
-.option_pane_blue {
+.option_pane {
   position: absolute;
-  /*border: .2em solid #84BBEA;*/
-  /*border: .2em solid #FFFFFF;*/
   border: .2em solid #84BBEA;
   width: 100%;
   bottom: 3.5em;
   padding: 0;
   left: -0.2em;
   opacity: 0;
-  /*color: #FFFFFF;*/
 }
 
-.popup_origin:hover .option_pane_blue {
+.popup_origin:hover .option_pane {
   opacity: 1;
   border: .2em solid #84BBEA;
   background-color: #FFFFFF;
@@ -138,30 +137,30 @@
   color: #84BBEA;
 }
 
-.border_corner_blue:hover {
+.refresh_button:hover {
   background-color: #84BBEA;
   color: #FFFFFF;
 }
 
-.border_list-inside-leftmost_blue:hover {
+.option_pane_emphasis_full:hover {
   background-color: #84BBEA;
   color: #FFFFFF;
 }
 
-.border_list-inside_blue:hover {
+.option_pane_emphasis:hover {
   background-color: #84BBEA;
   color: #FFFFFF;
 }
 
-.border_corner_blue:hover .remove_underline {
+.refresh_button:hover .remove_underline {
   color: #FFFFFF;
 }
 
-.border_list-inside-leftmost_blue:hover .remove_underline {
+.option_pane_emphasis_full:hover .remove_underline {
   color: #FFFFFF;
 }
 
-.border_list-inside_blue:hover .remove_underline{
+.option_pane_emphasis:hover .remove_underline{
   color: #FFFFFF;
 }
 
